@@ -1,0 +1,140 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap'); */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .container{
+    background-color: #f0f2f5;
+    height: 635px;
+}
+.container .text{
+    margin-bottom: 90px;
+    display:block;
+    position: absolute;
+   
+}
+.text h1{
+    color: #1877f2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    margin-left: 40%;
+    margin-top: 50%;
+
+}
+
+.text p{
+    line-height: 3vb;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 40%;  
+    font-size: 1.75rem;
+    white-space: nowrap;
+    margin-bottom: 10px;
+}
+
+.loginbox{
+    padding: 1.5%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    background-color: white;
+    height: 400px;
+    width: 30%;
+    float: right;
+    margin-top: 10%;
+    margin-right: 13%;
+    border-radius: 20px;
+    line-height: 11vb;
+    
+}
+.loginbox .remain{
+    line-height:7vb;
+    text-align:center
+}
+.remain2{
+    line-height: 2vb;
+    text-align: center;
+    
+}
+
+#face{
+    
+    background-color: blueviolet;
+    
+
+}
+.loginbox .inp{
+    border: 1px solid #ccc;
+  line-height: 0.8;
+    padding: 16px;
+    border-radius: 7px;
+    font-size: 18px;
+   width: 100%;
+   
+
+}
+
+
+.loginbox .login_button{
+    border:1px solid #ccc;
+    color: white;
+    font-size: 18px;
+    border-radius: 7px;
+    width: 100%;
+    padding:16px;
+   
+    background-color: #1877f2;
+
+}
+.login_button:hover{
+    background-color: blue;
+}
+ 
+.loginbox a{
+    transform: translateY(50%);
+    color:  #1877f2;
+    font-size: 0.875rem;
+     position: relative;
+    text-decoration: none;
+    text-align: center;
+    width: 100%;
+  
+
+}
+.loginbox a:hover{
+    text-decoration: underline;
+}
+.remain hr{
+    
+    width: 100%;
+    
+   
+}
+button{
+    display: block;
+    margin: auto;
+}
+.create_button{
+   
+    font-size: 18px;
+    margin-top: 4vb;
+    color: white;
+    border: 1px solid #ccc;
+    padding: 13px;
+    border-radius: 10px;
+    width:58%;
+    background-color: #42b72a;
+    
+    text-align:center;
+   
+}
+.create_button:hover{
+    background-color: green;
+}
+.container .fonts{
+    color: blue;
+    background-color: black;
+}
